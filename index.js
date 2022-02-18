@@ -3,7 +3,7 @@ const os = require('os')
 
 const app = express()
 app.get('/', (req, res) => {
-        res.send(`Hi i am nodejs deploy me on k8s from ${os.hostname()}!`)
+        res.send(`Hello i am nodejs deploy me on k8s from ${os.hostname()}!`)
 })
 
 const port = 3009
