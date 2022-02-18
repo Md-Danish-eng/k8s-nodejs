@@ -17,6 +17,6 @@ spec:
       - name: mynode-app
         image: matharoo89/mynode-app
         ports:
-        - containerPort: 3000
+        - containerPort: 3009
       imagePullSecrets:
       - name: mycreds
