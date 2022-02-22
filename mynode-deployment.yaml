@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: mynode-app
-        image: matharoo89/mynode-app
+        image: mddanish123/k8s-nodejs
         ports:
-        - containerPort: 3009
+        - containerPort: 3000
       imagePullSecrets:
       - name: mycreds
